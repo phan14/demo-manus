@@ -1,0 +1,50 @@
+Yêu cầu cụ thể cho phần RBAC:
+Định nghĩa rõ danh sách vai trò (Roles):
+
+Ví dụ: ADMIN, USER, MODERATOR, GUEST, v.v.
+
+Nên dùng Enum trong Java để quản lý các role này.
+
+Quy định rõ quyền hạn (Permissions):
+
+Mỗi vai trò sẽ có một tập quyền cụ thể (READ, WRITE, DELETE…).
+
+Có thể mở rộng thành mô hình Role - Permission (thay vì hardcode logic role trong code).
+
+Phân quyền trên từng endpoint (API level):
+
+Ví dụ:
+
+/api/admin/** chỉ cho ADMIN
+
+/api/mod/** cho MODERATOR và ADMIN
+
+/api/user/** cho mọi user đã xác thực
+
+Xác thực & phân quyền tại controller hoặc service layer:
+
+Dùng @PreAuthorize, @Secured, hoặc @RolesAllowed
+
+Có thể sử dụng Method Security của Spring
+
+Phân quyền động (Optional):
+
+Cấu hình role-permission trong DB (nếu hệ thống lớn, dễ thay đổi)
+
+Cho phép cập nhật vai trò và quyền thông qua giao diện admin
+
+Middleware kiểm tra JWT + Role:
+
+Xác minh JWT để trích xuất role, sau đó mới cho phép vào controller
+
+Xử lý lỗi khi không đủ quyền truy cập:
+
+Trả về mã lỗi 403 Forbidden + thông điệp cụ thể
+
+Test case cần có cho RBAC:
+
+Người không đăng nhập => bị chặn
+
+Người đăng nhập nhưng không đủ quyền => bị chặn
+
+Người có quyền phù hợp => được phép truy cập

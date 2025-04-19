@@ -1,0 +1,94 @@
+2025-04-18 16:13:13.440 [info] 
+
+
+
+
+2025-04-18 16:13:13.469 [info] Extension host agent started.
+2025-04-18 16:13:13.572 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-18 16:13:13.613 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-04-18 16:13:20.545 [info] [10.191.49.1][fac77f85][ManagementConnection] New connection established.
+2025-04-18 16:13:24.871 [info] [10.191.49.1][fc60b999][ExtensionHostConnection] New connection established.
+2025-04-18 16:13:25.648 [info] [10.191.49.1][fc60b999][ExtensionHostConnection] <5238> Launched Extension Host Process.
+2025-04-18 16:19:30.397 [info] [10.191.49.1][fac77f85][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-19 06:09:38.289 [info] [10.191.49.1][fac77f85][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-19 06:09:38.299 [info] [10.98.157.1][d5e04fe5][ManagementConnection] New connection established.
+2025-04-19 06:09:40.245 [info] [10.98.157.1][dfa69fea][ManagementConnection] New connection established.
+2025-04-19 06:09:41.432 [info] [10.98.157.1][24638027][ExtensionHostConnection] New connection established.
+2025-04-19 06:09:41.442 [info] [10.98.157.1][24638027][ExtensionHostConnection] <12099> Launched Extension Host Process.
+2025-04-19 06:09:45.399 [info] [10.98.157.1][a7bd0527][ExtensionHostConnection] New connection established.
+2025-04-19 06:09:45.607 [info] [10.98.157.1][a7bd0527][ExtensionHostConnection] <12859> Launched Extension Host Process.
+2025-04-19 06:09:46.342 [warning] RequestStore#acceptReply was called without receiving a matching request 25
+2025-04-19 06:09:46.342 [warning] RequestStore#acceptReply was called without receiving a matching request 26
+2025-04-19 06:09:46.343 [warning] RequestStore#acceptReply was called without receiving a matching request 27
+2025-04-19 06:09:46.343 [warning] RequestStore#acceptReply was called without receiving a matching request 28
+2025-04-19 06:09:46.343 [warning] RequestStore#acceptReply was called without receiving a matching request 29
+2025-04-19 06:09:46.343 [warning] RequestStore#acceptReply was called without receiving a matching request 30
+2025-04-19 06:09:46.343 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2025-04-19 06:09:46.344 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2025-04-19 06:09:46.344 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2025-04-19 06:09:46.344 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2025-04-19 06:09:46.344 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2025-04-19 06:09:46.345 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2025-04-19 06:09:56.225 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+2025-04-19 06:10:10.575 [info] [10.98.157.1][d5e04fe5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-19 06:10:10.684 [info] [10.98.157.1][24638027][ExtensionHostConnection] <12099> Extension Host Process exited with code: 0, signal: null.
+2025-04-19 06:14:38.440 [info] [10.191.49.1][fc60b999][ExtensionHostConnection] <5238> Extension Host Process exited with code: 0, signal: null.
+2025-04-19 06:14:38.590 [info] [10.191.49.1][fac77f85][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-04-19 06:28:31.797 [info] [10.186.224.1][2d71deff][ManagementConnection] New connection established.
+2025-04-19 06:28:35.720 [info] [10.186.224.1][096df4e4][ExtensionHostConnection] New connection established.
+2025-04-19 06:28:35.731 [info] [10.186.224.1][096df4e4][ExtensionHostConnection] <21556> Launched Extension Host Process.
+2025-04-19 06:33:55.812 [info] [10.186.224.1][959eb892][ManagementConnection] New connection established.
+2025-04-19 06:33:58.971 [info] [10.186.224.1][6cb6977b][ExtensionHostConnection] New connection established.
+2025-04-19 06:33:58.984 [info] [10.186.224.1][6cb6977b][ExtensionHostConnection] <24684> Launched Extension Host Process.
+2025-04-19 06:34:00.773 [warning] RequestStore#acceptReply was called without receiving a matching request 61
+2025-04-19 06:34:00.774 [warning] RequestStore#acceptReply was called without receiving a matching request 62
+2025-04-19 06:34:00.775 [warning] RequestStore#acceptReply was called without receiving a matching request 63
+2025-04-19 06:34:00.775 [warning] RequestStore#acceptReply was called without receiving a matching request 64
+2025-04-19 06:34:00.775 [warning] RequestStore#acceptReply was called without receiving a matching request 65
+2025-04-19 06:34:00.776 [warning] RequestStore#acceptReply was called without receiving a matching request 66
+2025-04-19 06:34:00.776 [warning] RequestStore#acceptReply was called without receiving a matching request 67
+2025-04-19 06:34:00.777 [warning] RequestStore#acceptReply was called without receiving a matching request 68
+2025-04-19 06:34:00.777 [warning] RequestStore#acceptReply was called without receiving a matching request 69
+2025-04-19 06:34:00.777 [warning] RequestStore#acceptReply was called without receiving a matching request 70
+2025-04-19 06:34:00.778 [warning] RequestStore#acceptReply was called without receiving a matching request 71
+2025-04-19 06:34:00.778 [warning] RequestStore#acceptReply was called without receiving a matching request 72
+2025-04-19 06:34:00.779 [warning] RequestStore#acceptReply was called without receiving a matching request 73
+2025-04-19 06:34:00.779 [warning] RequestStore#acceptReply was called without receiving a matching request 74
+2025-04-19 06:34:00.779 [warning] RequestStore#acceptReply was called without receiving a matching request 75
+2025-04-19 06:34:00.780 [warning] RequestStore#acceptReply was called without receiving a matching request 76
+2025-04-19 06:34:00.780 [warning] RequestStore#acceptReply was called without receiving a matching request 77
+2025-04-19 06:34:00.781 [warning] RequestStore#acceptReply was called without receiving a matching request 78
+2025-04-19 06:34:00.781 [warning] RequestStore#acceptReply was called without receiving a matching request 79
+2025-04-19 06:34:00.781 [warning] RequestStore#acceptReply was called without receiving a matching request 80
+2025-04-19 06:34:00.782 [warning] RequestStore#acceptReply was called without receiving a matching request 81
+2025-04-19 06:34:00.782 [warning] RequestStore#acceptReply was called without receiving a matching request 82
+2025-04-19 06:34:00.783 [warning] RequestStore#acceptReply was called without receiving a matching request 83
+2025-04-19 06:34:00.783 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2025-04-19 06:34:02.644 [warning] RequestStore#acceptReply was called without receiving a matching request 85
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 86
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 87
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 88
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 89
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 90
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 91
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 92
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 93
+2025-04-19 06:34:02.645 [warning] RequestStore#acceptReply was called without receiving a matching request 94
+2025-04-19 06:34:02.646 [warning] RequestStore#acceptReply was called without receiving a matching request 95
+2025-04-19 06:34:02.646 [warning] RequestStore#acceptReply was called without receiving a matching request 96
+2025-04-19 06:34:17.989 [info] [10.186.224.1][959eb892][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-19 06:34:18.077 [info] [10.186.224.1][6cb6977b][ExtensionHostConnection] <24684> Extension Host Process exited with code: 0, signal: null.
+2025-04-19 06:35:06.969 [info] [10.186.224.1][2d71deff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-19 06:35:07.101 [info] [10.186.224.1][096df4e4][ExtensionHostConnection] <21556> Extension Host Process exited with code: 0, signal: null.
+2025-04-19 06:42:24.810 [info] [10.186.224.1][e38d21b7][ManagementConnection] New connection established.
+2025-04-19 06:42:27.855 [info] [10.186.224.1][d89e3b03][ExtensionHostConnection] New connection established.
+2025-04-19 06:42:27.868 [info] [10.186.224.1][d89e3b03][ExtensionHostConnection] <27353> Launched Extension Host Process.
+2025-04-19 06:47:09.298 [info] [10.200.22.1][429fba1f][ManagementConnection] New connection established.
+2025-04-19 06:47:12.725 [info] [10.200.22.1][54ea753d][ExtensionHostConnection] New connection established.
+2025-04-19 06:47:12.741 [info] [10.200.22.1][54ea753d][ExtensionHostConnection] <28232> Launched Extension Host Process.
+2025-04-19 06:47:46.174 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-04-19 06:47:46.178 [info] [10.98.157.1][dfa69fea][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-19 06:56:45.717 [info] [10.98.157.1][dfa69fea][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-19 06:56:45.718 [info] [10.200.22.1][429fba1f][ManagementConnection] The client has reconnected.
+2025-04-19 06:56:46.144 [info] [10.200.22.1][54ea753d][ExtensionHostConnection] The client has reconnected.

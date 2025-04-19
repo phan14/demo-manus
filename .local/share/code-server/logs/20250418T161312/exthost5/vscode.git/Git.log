@@ -1,0 +1,58 @@
+2025-04-19 02:34:02.422 [info] [main] Log level: Info
+2025-04-19 02:34:02.422 [info] [main] Validating found git in: "git"
+2025-04-19 02:34:02.422 [info] [main] Using git "2.34.1" from "git"
+2025-04-19 02:34:02.422 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [17ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2025-04-19 02:34:02.422 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-19 02:34:02.422 [info] > git config --get commit.template [2ms]
+2025-04-19 02:34:02.422 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:34:02.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-04-19 02:34:02.422 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-19 02:34:02.422 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-04-19 02:34:02.422 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-19 02:34:02.422 [info] > git config --get commit.template [16ms]
+2025-04-19 02:34:02.422 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [10ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [24ms]
+2025-04-19 02:34:02.422 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:34:02.422 [info] > git status -z -uall [55ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [41ms]
+2025-04-19 02:34:02.422 [info] > git config --get commit.template [20ms]
+2025-04-19 02:34:02.422 [info] > git rev-parse --show-toplevel [42ms]
+2025-04-19 02:34:02.422 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 02:34:02.428 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [23ms]
+2025-04-19 02:34:02.532 [info] > git status -z -uall [84ms]
+2025-04-19 02:34:02.533 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [64ms]
+2025-04-19 02:34:02.816 [info] > git status -z -uall [663ms] (cancelled)
+2025-04-19 02:34:05.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2446ms]
+2025-04-19 02:34:05.257 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:34:05.259 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-19 02:34:05.301 [info] > git check-ignore -v -z --stdin [26ms]
+2025-04-19 02:34:05.303 [info] > git config --get commit.template [50ms]
+2025-04-19 02:34:05.305 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-19 02:34:05.321 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:34:05.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-19 02:34:05.323 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:34:05.351 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-19 02:34:05.827 [info] > git status -z -uall [499ms] (cancelled)
+2025-04-19 02:34:07.544 [info] > git check-ignore -v -z --stdin [28ms]
+2025-04-19 02:34:07.545 [info] > git check-ignore -v -z --stdin [25ms]
+2025-04-19 02:34:07.575 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2025-04-19 02:34:07.575 [info] fatal: bad revision 'refs/heads/master'
+2025-04-19 02:34:07.576 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-04-19 02:34:08.079 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-19 02:34:11.160 [info] > git check-ignore -v -z --stdin [2ms]

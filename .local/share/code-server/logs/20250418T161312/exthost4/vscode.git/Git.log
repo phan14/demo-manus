@@ -1,0 +1,109 @@
+2025-04-19 02:28:39.389 [info] [main] Log level: Info
+2025-04-19 02:28:39.389 [info] [main] Validating found git in: "git"
+2025-04-19 02:28:39.389 [info] [main] Using git "2.34.1" from "git"
+2025-04-19 02:28:39.389 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-19 02:28:39.389 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-19 02:28:39.389 [info] > git config --get commit.template [4ms]
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [9ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:39.389 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-19 02:28:39.389 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 02:28:39.389 [info] > git status -z -uall [30ms]
+2025-04-19 02:28:39.389 [info] > git config --get commit.template [4ms]
+2025-04-19 02:28:39.389 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-04-19 02:28:39.389 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-19 02:28:39.389 [info] > git status -z -uall [22ms]
+2025-04-19 02:28:39.811 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:28:43.663 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:29:38.531 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:29:38.538 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-19 02:29:38.544 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-19 02:29:38.554 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:29:38.554 [info] > git config --get commit.template [5ms]
+2025-04-19 02:29:38.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-19 02:29:38.557 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:29:38.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-19 02:29:38.824 [info] > git status -z -uall [264ms] (cancelled)
+2025-04-19 02:29:40.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1631ms]
+2025-04-19 02:29:40.613 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:29:40.615 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-19 02:29:40.626 [info] > git config --get commit.template [16ms]
+2025-04-19 02:29:40.637 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:29:40.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-19 02:29:40.639 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:29:40.659 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-19 02:29:40.985 [info] > git status -z -uall [339ms] (cancelled)
+2025-04-19 02:29:42.547 [info] > git check-ignore -v -z --stdin [10ms]
+2025-04-19 02:29:42.548 [info] > git check-ignore -v -z --stdin [6ms]
+2025-04-19 02:29:42.566 [info] > git show --textconv :user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java [7ms]
+2025-04-19 02:29:42.572 [info] > git ls-files --stage -- user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java [6ms]
+2025-04-19 02:29:42.578 [info] > git hash-object -t tree /dev/null [7ms]
+2025-04-19 02:29:42.579 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fuser-access-management-system%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fusermanagement%2Fsecurity%2FMethodSecurityConfig.java%22%2C%22ref%22%3A%22%22%7D
+2025-04-19 02:29:42.581 [info] > git hash-object -t tree /dev/null [4ms]
+2025-04-19 02:29:42.581 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fuser-access-management-system%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fusermanagement%2Fsecurity%2FMethodSecurityConfig.java%22%2C%22ref%22%3A%22%22%7D
+2025-04-19 02:31:45.391 [info] > git show --textconv :user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java [6ms]
+2025-04-19 02:31:45.392 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fuser-access-management-system%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fusermanagement%2Fsecurity%2FMethodSecurityConfig.java%22%2C%22ref%22%3A%22%22%7D
+2025-04-19 02:31:45.393 [info] > git ls-files --stage -- user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java [2ms]
+2025-04-19 02:31:45.394 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/user-access-management-system/src/main/java/com/example/usermanagement/security/MethodSecurityConfig.java.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fuser-access-management-system%2Fsrc%2Fmain%2Fjava%2Fcom%2Fexample%2Fusermanagement%2Fsecurity%2FMethodSecurityConfig.java%22%2C%22ref%22%3A%22%22%7D
+2025-04-19 02:31:49.843 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:33:15.558 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-04-19 02:33:15.558 [info] fatal: bad revision 'refs/heads/master'
+2025-04-19 02:33:15.558 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-04-19 02:33:16.111 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-19 02:33:18.811 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:33:24.605 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-19 02:33:27.109 [info] > git check-ignore -v -z --stdin [4ms]
+2025-04-19 02:33:28.891 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-19 02:33:30.710 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:33:33.553 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:34:29.557 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [30ms]
+2025-04-19 02:34:35.431 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:34:35.509 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-04-19 02:34:35.509 [info] fatal: bad revision 'refs/heads/master'
+2025-04-19 02:34:35.509 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-04-19 02:34:40.223 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-19 02:34:43.312 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [2ms]
+2025-04-19 02:34:50.820 [info] > git checkout -q -b demo --no-track HEAD [4ms]
+2025-04-19 02:34:50.820 [info] fatal: 'HEAD' is not a commit and a branch 'demo' cannot be created from it
+2025-04-19 02:34:50.835 [info] > git config --get commit.template [7ms]
+2025-04-19 02:34:50.835 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:34:50.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-19 02:34:50.839 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:34:50.850 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-19 02:34:51.200 [info] > git status -z -uall [357ms] (cancelled)
+2025-04-19 02:35:02.974 [info] > git check-ignore -v -z --stdin [3ms]

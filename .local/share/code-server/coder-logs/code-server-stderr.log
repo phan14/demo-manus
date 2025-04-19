@@ -1,0 +1,69 @@
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 25
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 26
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 27
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 28
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 29
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 30
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 31
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 32
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 33
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 34
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 35
+[06:09:46] RequestStore#acceptReply was called without receiving a matching request 36
+[06:09:56] [File Watcher] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 61
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 62
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 63
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 64
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 65
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 66
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 67
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 68
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 69
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 70
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 71
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 72
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 73
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 74
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 75
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 76
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 77
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 78
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 79
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 80
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 81
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 82
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 83
+[06:34:00] RequestStore#acceptReply was called without receiving a matching request 84
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 85
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 86
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 87
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 88
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 89
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 90
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 91
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 92
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 93
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 94
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 95
+[06:34:02] RequestStore#acceptReply was called without receiving a matching request 96
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[06:47:46] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}

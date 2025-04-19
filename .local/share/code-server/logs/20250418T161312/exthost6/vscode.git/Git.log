@@ -1,0 +1,47 @@
+2025-04-19 02:42:30.924 [info] [main] Log level: Info
+2025-04-19 02:42:30.924 [info] [main] Validating found git in: "git"
+2025-04-19 02:42:30.924 [info] [main] Using git "2.34.1" from "git"
+2025-04-19 02:42:30.924 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-04-19 02:42:30.924 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-19 02:42:30.924 [info] > git config --get commit.template [7ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:42:30.924 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:42:30.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-19 02:42:30.924 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:42:30.924 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-04-19 02:42:30.924 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-19 02:42:30.924 [info] > git config --get commit.template [4ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-19 02:42:30.924 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-19 02:42:30.924 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 02:42:30.924 [info] > git status -z -uall [22ms]
+2025-04-19 02:42:30.924 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-19 02:42:30.924 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 02:42:30.924 [info] > git config --get commit.template [6ms]
+2025-04-19 02:42:30.924 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-04-19 02:42:30.924 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-19 02:42:30.924 [info] > git status -z -uall [23ms]
+2025-04-19 02:42:31.086 [info] > git status -z -uall [363ms] (cancelled)
+2025-04-19 02:42:32.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1544ms]
+2025-04-19 02:42:32.626 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:42:32.627 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-19 02:42:32.656 [info] > git config --get commit.template [47ms]
+2025-04-19 02:42:32.670 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-19 02:42:32.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2025-04-19 02:42:32.706 [warning] [Git][getBranch] No such branch: master
+2025-04-19 02:42:32.719 [info] > git rev-parse --show-toplevel [64ms]
+2025-04-19 02:42:32.722 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-19 02:42:32.928 [info] > git status -z -uall [215ms] (cancelled)
+2025-04-19 02:42:34.556 [info] > git check-ignore -v -z --stdin [17ms]
