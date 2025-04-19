@@ -13,3 +13,5 @@
 2025-04-19 02:42:31.054 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-04-19 02:42:32.746 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 2025-04-19 02:42:33.010 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-04-19 03:06:08.664 [error] Error: read ETIMEDOUT
+	at TCP.onStreamRead (node:internal/stream_base_commons:218:20)

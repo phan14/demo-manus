@@ -23,3 +23,4 @@
 2025-04-19 02:49:35.837 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
 2025-04-19 02:49:40.233 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
 2025-04-19 02:49:48.152 [warning] [Decorations] CAPPING events from decorations provider vscode.git 350
+2025-04-19 02:58:59.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

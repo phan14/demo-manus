@@ -1,0 +1,87 @@
+2025-04-19 03:05:41.030 [info] [main] Log level: Info
+2025-04-19 03:05:41.030 [info] [main] Validating found git in: "git"
+2025-04-19 03:05:41.030 [info] [main] Using git "2.34.1" from "git"
+2025-04-19 03:05:41.030 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-19 03:05:41.030 [info] > git rev-parse --show-toplevel [79ms]
+2025-04-19 03:05:41.030 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2025-04-19 03:05:41.030 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-19 03:05:41.030 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-19 03:05:41.030 [info] > git config --get commit.template [18ms]
+2025-04-19 03:05:41.030 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-19 03:05:41.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-04-19 03:05:41.030 [warning] [Git][getBranch] No such branch: master
+2025-04-19 03:05:41.030 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [23ms]
+2025-04-19 03:05:41.032 [info] > git rev-parse --show-toplevel [30ms]
+2025-04-19 03:05:41.043 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 03:05:41.064 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 03:05:41.074 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-19 03:05:41.084 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-19 03:05:41.090 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-19 03:05:41.095 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-19 03:05:41.105 [info] > git config --get commit.template [5ms]
+2025-04-19 03:05:41.111 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-19 03:05:41.116 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [7ms]
+2025-04-19 03:05:41.126 [info] > git rev-parse --show-toplevel [11ms]
+2025-04-19 03:05:41.134 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-04-19 03:05:41.172 [info] > git status -z -uall [51ms]
+2025-04-19 03:05:41.173 [info] > git rev-parse --show-toplevel [40ms]
+2025-04-19 03:05:41.215 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-19 03:05:41.220 [info] > git config --get commit.template [13ms]
+2025-04-19 03:05:41.230 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-19 03:05:41.234 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-19 03:05:41.235 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [6ms]
+2025-04-19 03:05:41.253 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-04-19 03:05:41.266 [info] > git status -z -uall [27ms]
+2025-04-19 03:05:41.463 [info] > git status -z -uall [488ms] (cancelled)
+2025-04-19 03:05:43.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1630ms]
+2025-04-19 03:05:43.079 [warning] [Git][getBranch] No such branch: master
+2025-04-19 03:05:43.080 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-19 03:05:43.113 [info] > git check-ignore -v -z --stdin [22ms]
+2025-04-19 03:05:43.114 [info] > git check-ignore -v -z --stdin [28ms]
+2025-04-19 03:05:43.115 [info] > git config --get commit.template [39ms]
+2025-04-19 03:05:43.117 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-19 03:05:43.125 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-19 03:05:43.125 [warning] [Git][getBranch] No such branch: master
+2025-04-19 03:05:43.139 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-19 03:05:43.517 [info] > git status -z -uall [386ms] (cancelled)
+2025-04-19 03:05:45.521 [info] > git check-ignore -v -z --stdin [12ms]
+2025-04-19 03:05:45.539 [info] > git check-ignore -v -z --stdin [35ms]
+2025-04-19 03:05:45.585 [info] > git show --textconv :user-access-management-system/README.md [12ms]
+2025-04-19 03:05:45.590 [info] > git ls-files --stage -- user-access-management-system/README.md [12ms]
+2025-04-19 03:05:45.598 [info] > git cat-file -s fbcddd72274915398abe7cb6fd6341f758ad4d46 [3ms]
+2025-04-19 03:06:11.170 [info] > git show --textconv :.bash_logout [21ms]
+2025-04-19 03:06:11.170 [info] > git show --textconv HEAD:.bash_logout [13ms]
+2025-04-19 03:06:11.178 [info] > git ls-files --stage -- .bash_logout [15ms]
+2025-04-19 03:06:11.185 [info] > git ls-tree -l HEAD -- .bash_logout [15ms]
+2025-04-19 03:06:11.185 [info] fatal: Not a valid object name HEAD
+2025-04-19 03:06:11.192 [info] > git cat-file -s de4f5f75d7ccd3a5b62bd2ce683ed678a5cb72c2 [8ms]
+2025-04-19 03:06:11.193 [info] > git hash-object -t tree /dev/null [16ms]
+2025-04-19 03:06:11.193 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/.bash_logout.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.bash_logout%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:11.195 [info] > git hash-object -t tree /dev/null [4ms]
+2025-04-19 03:06:11.195 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/.bash_logout.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.bash_logout%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:12.736 [info] > git show --textconv :.bashrc [24ms]
+2025-04-19 03:06:12.736 [info] > git show --textconv HEAD:.bashrc [17ms]
+2025-04-19 03:06:12.737 [info] > git ls-tree -l HEAD -- .bashrc [4ms]
+2025-04-19 03:06:12.737 [info] fatal: Not a valid object name HEAD
+2025-04-19 03:06:12.738 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/.bashrc.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.bashrc%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:12.738 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/.bashrc.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.bashrc%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:12.740 [info] > git ls-files --stage -- .bashrc [13ms]
+2025-04-19 03:06:12.749 [info] > git cat-file -s 3d1c7a9bf93945801e6389c74017d8d5ba3655b0 [2ms]
+2025-04-19 03:06:14.153 [info] > git show --textconv :.env [20ms]
+2025-04-19 03:06:14.153 [info] > git show --textconv HEAD:.env [15ms]
+2025-04-19 03:06:14.156 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.env%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:14.157 [info] > git ls-tree -l HEAD -- .env [5ms]
+2025-04-19 03:06:14.157 [info] fatal: Not a valid object name HEAD
+2025-04-19 03:06:14.158 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2F.env%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-19 03:06:14.158 [info] > git ls-files --stage -- .env [13ms]
+2025-04-19 03:06:14.167 [info] > git cat-file -s 2c6372b7fbad3c4f40f319a9d158f1ea90e98df8 [3ms]
+2025-04-19 03:06:33.914 [info] > git check-ignore -v -z --stdin [11ms]
+2025-04-19 03:08:54.043 [info] > git check-ignore -v -z --stdin [13ms]
+2025-04-19 03:09:10.577 [info] > git config --get commit.template [7ms]
+2025-04-19 03:09:10.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-19 03:09:10.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-19 03:09:10.838 [info] > git status -z -uall [256ms]
+2025-04-19 03:10:39.077 [info] > git config --get commit.template [5ms]
+2025-04-19 03:10:39.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-19 03:10:39.089 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-19 03:10:39.265 [info] > git status -z -uall [183ms]
